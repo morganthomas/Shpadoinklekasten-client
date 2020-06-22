@@ -22,7 +22,7 @@ let
 
   Shpadoinklekasten-lib-src = builtins.fetchGit {
     url    = ssh://git@github.com/morganthomas/Shpadoinklekasten-lib.git;
-    rev    = "292262aea8d3861ed9fee9634b4437bfb1fd2df2";
+    rev    = "4b8ff5461d12ec326c3603eec60c15ac2075ee0a";
     ref    = "master";
   };
 
