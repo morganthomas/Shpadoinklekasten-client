@@ -17,7 +17,7 @@ import           Types
 import           View
 
 
-initialState :: MonadJSM m => ZettelEditor m => Route -> m Model
+initialState :: MonadJSM m => ZettelEditor m => Route -> m ViewModel
 initialState r = do
   msid <- getStorage (LocalStorageKey "session")
   case msid of
